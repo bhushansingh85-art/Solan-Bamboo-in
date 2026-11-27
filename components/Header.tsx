@@ -1,0 +1,3 @@
+import Link from 'next/link';
+import { Leaf, Menu } from 'lucide-react';
+export default function Header(){return <header className="site-header"><div className="container nav-wrap"><Link href="/" className="brand"><span className="brand-mark"><Leaf size={20}/></span><span>Solan <b>Bamboo</b><small>FURNITURE · CRAFTED NATURALLY</small></span></Link><nav><Link href="/#collection">Collection</Link><Link href="/#story">Our story</Link><Link href="/contact">Contact</Link></nav><Link className="nav-cta" href="/contact">Enquire now <span>↗</span></Link><button className="mobile-menu" aria-label="Menu"><Menu/></button></div></header>}
